@@ -1,0 +1,511 @@
+{
+  "first_month": "January 2021",
+  "latest_month": "August 2026",
+  "latest_12m": "Sep 2025 to Aug 2026",
+  "area_summary": {
+    "Antibacterials": {
+      "items_2021": 28173039.0,
+      "items_latest12": 30239782.0,
+      "cost_2021": 152488050.1,
+      "cost_latest12": 165708820.8,
+      "items_growth_pct": 7.3,
+      "cost_growth_pct": 8.7,
+      "cost_per_item_2021": 5.4,
+      "cost_per_item_latest12": 5.5
+    },
+    "Antidepressants": {
+      "items_2021": 82293072.0,
+      "items_latest12": 96355939.0,
+      "cost_2021": 269002344.8,
+      "cost_latest12": 210019195.9,
+      "items_growth_pct": 17.1,
+      "cost_growth_pct": -21.9,
+      "cost_per_item_2021": 3.3,
+      "cost_per_item_latest12": 2.2
+    },
+    "Diabetes drugs": {
+      "items_2021": 52241936.0,
+      "items_latest12": 74506023.0,
+      "cost_2021": 1012093160.1,
+      "cost_latest12": 1892948420.8,
+      "items_growth_pct": 42.6,
+      "cost_growth_pct": 87.0,
+      "cost_per_item_2021": 19.4,
+      "cost_per_item_latest12": 25.4
+    },
+    "Lipid-regulating drugs": {
+      "items_2021": 79282090.0,
+      "items_latest12": 108876066.0,
+      "cost_2021": 149235529.5,
+      "cost_latest12": 228005628.5,
+      "items_growth_pct": 37.3,
+      "cost_growth_pct": 52.8,
+      "cost_per_item_2021": 1.9,
+      "cost_per_item_latest12": 2.1
+    }
+  },
+  "top_cost_increase_substances": [
+    {
+      "substance": "Tirzepatide",
+      "area": "Diabetes drugs",
+      "cost_2021": 0.0,
+      "cost_latest12": 847093334.0
+    },
+    {
+      "substance": "Semaglutide",
+      "area": "Diabetes drugs",
+      "cost_2021": 53677028.0,
+      "cost_latest12": 142096208.0
+    },
+    {
+      "substance": "Empagliflozin",
+      "area": "Diabetes drugs",
+      "cost_2021": 82759365.0,
+      "cost_latest12": 158781261.0
+    },
+    {
+      "substance": "Bempedoic acid/Ezetimibe",
+      "area": "Lipid-regulating drugs",
+      "cost_2021": 78511.0,
+      "cost_latest12": 41994925.0
+    },
+    {
+      "substance": "Dapagliflozin",
+      "area": "Diabetes drugs",
+      "cost_2021": 64896340.0,
+      "cost_latest12": 101387989.0
+    },
+    {
+      "substance": "Insulin aspart",
+      "area": "Diabetes drugs",
+      "cost_2021": 85595385.0,
+      "cost_latest12": 115206832.0
+    },
+    {
+      "substance": "Venlafaxine",
+      "area": "Antidepressants",
+      "cost_2021": 31489102.0,
+      "cost_latest12": 55082884.0
+    },
+    {
+      "substance": "Insulin glargine",
+      "area": "Diabetes drugs",
+      "cost_2021": 71709241.0,
+      "cost_latest12": 94089631.0
+    },
+    {
+      "substance": "Colesevelam hydrochloride",
+      "area": "Lipid-regulating drugs",
+      "cost_2021": 12712933.0,
+      "cost_latest12": 32477029.0
+    },
+    {
+      "substance": "Bempedoic acid",
+      "area": "Lipid-regulating drugs",
+      "cost_2021": 165652.0,
+      "cost_latest12": 18375517.0
+    }
+  ],
+  "top_substance_by_items_latest12": {
+    "Antibacterials": [
+      "Amoxicillin",
+      6415061.0
+    ],
+    "Antidepressants": [
+      "Sertraline hydrochloride",
+      26131018.0
+    ],
+    "Diabetes drugs": [
+      "Metformin hydrochloride",
+      27606799.0
+    ],
+    "Lipid-regulating drugs": [
+      "Atorvastatin",
+      79486915.0
+    ]
+  },
+  "diabetes_cost_change_total": 880855261,
+  "glp1_tirzepatide_semaglutide_share_of_diabetes_cost_increase_pct": 98.2,
+  "fy": "2025/26",
+  "corr_rate_vs_pct65": {
+    "Antibacterials": 0.35,
+    "Antidepressants": 0.32,
+    "Diabetes drugs": -0.13,
+    "Lipid-regulating drugs": 0.42
+  },
+  "n_sicbl": 106,
+  "outliers_count": {
+    "Antibacterials": {
+      "High (>99.8%)": 1,
+      "Low (<99.8%)": 2
+    },
+    "Antidepressants": {
+      "High (>99.8%)": 2,
+      "Low (<99.8%)": 3
+    },
+    "Diabetes drugs": {
+      "High (>99.8%)": 4,
+      "Low (<99.8%)": 3
+    },
+    "Lipid-regulating drugs": {
+      "High (>99.8%)": 2,
+      "Low (<99.8%)": 1
+    }
+  },
+  "variation_ratio_max_min": {
+    "Antibacterials": 2.3,
+    "Antidepressants": 3.3,
+    "Diabetes drugs": 3.7,
+    "Lipid-regulating drugs": 3.3
+  },
+  "variation_ratio_p95_p5": {
+    "Antibacterials": 1.59,
+    "Antidepressants": 2.43,
+    "Diabetes drugs": 1.8,
+    "Lipid-regulating drugs": 2.25
+  },
+  "outliers": [
+    {
+      "area": "Antibacterials",
+      "sicbl_name": "NHS South East London ICB - 72Q",
+      "items_per_1000": 412.3,
+      "z_overdispersed": -3.2,
+      "z_age_adjusted": -1.0
+    },
+    {
+      "area": "Antibacterials",
+      "sicbl_name": "NHS North East and North Cumbria ICB - 84H",
+      "items_per_1000": 709.6,
+      "z_overdispersed": 3.8,
+      "z_age_adjusted": 2.4
+    },
+    {
+      "area": "Antibacterials",
+      "sicbl_name": "NHS North West London ICB - W2U3Z",
+      "items_per_1000": 413.4,
+      "z_overdispersed": -3.4,
+      "z_age_adjusted": -1.1
+    },
+    {
+      "area": "Antidepressants",
+      "sicbl_name": "NHS North East and North Cumbria ICB - 00P",
+      "items_per_1000": 3175.7,
+      "z_overdispersed": 3.3,
+      "z_age_adjusted": 3.0
+    },
+    {
+      "area": "Antidepressants",
+      "sicbl_name": "NHS South East London ICB - 72Q",
+      "items_per_1000": 975.2,
+      "z_overdispersed": -3.5,
+      "z_age_adjusted": -1.2
+    },
+    {
+      "area": "Antidepressants",
+      "sicbl_name": "NHS North East and North Cumbria ICB - 84H",
+      "items_per_1000": 3060.3,
+      "z_overdispersed": 4.2,
+      "z_age_adjusted": 2.6
+    },
+    {
+      "area": "Antidepressants",
+      "sicbl_name": "NHS North East London ICB - A3A8R",
+      "items_per_1000": 1068.1,
+      "z_overdispersed": -3.2,
+      "z_age_adjusted": -0.8
+    },
+    {
+      "area": "Antidepressants",
+      "sicbl_name": "NHS North West London ICB - W2U3Z",
+      "items_per_1000": 974.8,
+      "z_overdispersed": -3.8,
+      "z_age_adjusted": -1.3
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS Humber and North Yorkshire ICB - 03Q",
+      "items_per_1000": 557.6,
+      "z_overdispersed": -3.1,
+      "z_age_adjusted": -2.8
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS Leicester, Leicestershire and Rutland ICB - 04C",
+      "items_per_1000": 1906.1,
+      "z_overdispersed": 3.1,
+      "z_age_adjusted": 2.2
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS Bristol, North Somerset and South Gloucestershire ICB - 15C",
+      "items_per_1000": 815.7,
+      "z_overdispersed": -3.2,
+      "z_age_adjusted": -1.9
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS Lincolnshire ICB - 71E",
+      "items_per_1000": 1722.1,
+      "z_overdispersed": 3.2,
+      "z_age_adjusted": 1.9
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS Surrey Heartlands ICB - 92A",
+      "items_per_1000": 750.1,
+      "z_overdispersed": -3.8,
+      "z_age_adjusted": -2.1
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS North East London ICB - A3A8R",
+      "items_per_1000": 1739.0,
+      "z_overdispersed": 5.5,
+      "z_age_adjusted": 1.5
+    },
+    {
+      "area": "Diabetes drugs",
+      "sicbl_name": "NHS North West London ICB - W2U3Z",
+      "items_per_1000": 1549.6,
+      "z_overdispersed": 3.5,
+      "z_age_adjusted": 0.9
+    },
+    {
+      "area": "Lipid-regulating drugs",
+      "sicbl_name": "NHS Lincolnshire ICB - 71E",
+      "items_per_1000": 3019.8,
+      "z_overdispersed": 4.5,
+      "z_age_adjusted": 2.1
+    },
+    {
+      "area": "Lipid-regulating drugs",
+      "sicbl_name": "NHS South East London ICB - 72Q",
+      "items_per_1000": 1214.3,
+      "z_overdispersed": -3.4,
+      "z_age_adjusted": -1.0
+    },
+    {
+      "area": "Lipid-regulating drugs",
+      "sicbl_name": "NHS North East and North Cumbria ICB - 84H",
+      "items_per_1000": 3094.5,
+      "z_overdispersed": 3.9,
+      "z_age_adjusted": 2.5
+    }
+  ],
+  "highest_rate_sicbl": {
+    "Antibacterials": [
+      "NHS Lancashire and South Cumbria ICB - 00R",
+      733
+    ],
+    "Antidepressants": [
+      "NHS Lancashire and South Cumbria ICB - 00R",
+      3178
+    ],
+    "Diabetes drugs": [
+      "NHS Lancashire and South Cumbria ICB - 00R",
+      2041
+    ],
+    "Lipid-regulating drugs": [
+      "NHS North East and North Cumbria ICB - 84H",
+      3094
+    ]
+  },
+  "lowest_rate_sicbl": {
+    "Antibacterials": [
+      "NHS Humber and North Yorkshire ICB - 03Q",
+      317
+    ],
+    "Antidepressants": [
+      "NHS Humber and North Yorkshire ICB - 03Q",
+      956
+    ],
+    "Diabetes drugs": [
+      "NHS Humber and North Yorkshire ICB - 03Q",
+      558
+    ],
+    "Lipid-regulating drugs": [
+      "NHS Humber and North Yorkshire ICB - 03Q",
+      936
+    ]
+  },
+  "london": {
+    "Antibacterials": {
+      "South West London": {
+        "items_per_1000": 429.5,
+        "vs_england_pct": -14.8,
+        "vs_age_expected_pct": -12.9,
+        "z_age_adjusted": -0.9
+      },
+      "South East London": {
+        "items_per_1000": 412.3,
+        "vs_england_pct": -18.2,
+        "vs_age_expected_pct": -14.9,
+        "z_age_adjusted": -1.0
+      },
+      "North Central London": {
+        "items_per_1000": 405.7,
+        "vs_england_pct": -19.5,
+        "vs_age_expected_pct": -17.0,
+        "z_age_adjusted": -1.2
+      },
+      "North East London": {
+        "items_per_1000": 430.7,
+        "vs_england_pct": -14.5,
+        "vs_age_expected_pct": -8.3,
+        "z_age_adjusted": -0.6
+      },
+      "North West London": {
+        "items_per_1000": 413.4,
+        "vs_england_pct": -18.0,
+        "vs_age_expected_pct": -15.4,
+        "z_age_adjusted": -1.1
+      }
+    },
+    "Antidepressants": {
+      "South West London": {
+        "items_per_1000": 1052.6,
+        "vs_england_pct": -35.1,
+        "vs_age_expected_pct": -33.3,
+        "z_age_adjusted": -1.2
+      },
+      "South East London": {
+        "items_per_1000": 975.2,
+        "vs_england_pct": -39.8,
+        "vs_age_expected_pct": -36.2,
+        "z_age_adjusted": -1.2
+      },
+      "North Central London": {
+        "items_per_1000": 1201.3,
+        "vs_england_pct": -25.9,
+        "vs_age_expected_pct": -22.7,
+        "z_age_adjusted": -0.8
+      },
+      "North East London": {
+        "items_per_1000": 1068.1,
+        "vs_england_pct": -34.1,
+        "vs_age_expected_pct": -25.9,
+        "z_age_adjusted": -0.8
+      },
+      "North West London": {
+        "items_per_1000": 974.8,
+        "vs_england_pct": -39.9,
+        "vs_age_expected_pct": -37.3,
+        "z_age_adjusted": -1.3
+      }
+    },
+    "Diabetes drugs": {
+      "South West London": {
+        "items_per_1000": 1174.8,
+        "vs_england_pct": -5.1,
+        "vs_age_expected_pct": -11.4,
+        "z_age_adjusted": -0.6
+      },
+      "South East London": {
+        "items_per_1000": 1075.1,
+        "vs_england_pct": -13.1,
+        "vs_age_expected_pct": -19.6,
+        "z_age_adjusted": -1.0
+      },
+      "North Central London": {
+        "items_per_1000": 1333.1,
+        "vs_england_pct": 7.7,
+        "vs_age_expected_pct": 0.2,
+        "z_age_adjusted": 0.0
+      },
+      "North East London": {
+        "items_per_1000": 1739.0,
+        "vs_england_pct": 40.5,
+        "vs_age_expected_pct": 28.3,
+        "z_age_adjusted": 1.5
+      },
+      "North West London": {
+        "items_per_1000": 1549.6,
+        "vs_england_pct": 25.2,
+        "vs_age_expected_pct": 16.4,
+        "z_age_adjusted": 0.9
+      }
+    },
+    "Lipid-regulating drugs": {
+      "South West London": {
+        "items_per_1000": 1347.6,
+        "vs_england_pct": -25.8,
+        "vs_age_expected_pct": -19.4,
+        "z_age_adjusted": -0.8
+      },
+      "South East London": {
+        "items_per_1000": 1214.3,
+        "vs_england_pct": -33.2,
+        "vs_age_expected_pct": -24.6,
+        "z_age_adjusted": -1.0
+      },
+      "North Central London": {
+        "items_per_1000": 1491.1,
+        "vs_england_pct": -17.9,
+        "vs_age_expected_pct": -9.2,
+        "z_age_adjusted": -0.4
+      },
+      "North East London": {
+        "items_per_1000": 1617.8,
+        "vs_england_pct": -11.0,
+        "vs_age_expected_pct": 7.8,
+        "z_age_adjusted": 0.3
+      },
+      "North West London": {
+        "items_per_1000": 1653.0,
+        "vs_england_pct": -9.0,
+        "vs_age_expected_pct": 0.7,
+        "z_age_adjusted": 0.0
+      }
+    }
+  },
+  "london_vs_rest_items_per_1000": {
+    "Antibacterials": {
+      "London": 419,
+      "Rest of England": 519,
+      "London_vs_rest_pct": -19.4
+    },
+    "Antidepressants": {
+      "London": 1045,
+      "Rest of England": 1727,
+      "London_vs_rest_pct": -39.4
+    },
+    "Diabetes drugs": {
+      "London": 1400,
+      "Rest of England": 1208,
+      "London_vs_rest_pct": 15.9
+    },
+    "Lipid-regulating drugs": {
+      "London": 1479,
+      "Rest of England": 1879,
+      "London_vs_rest_pct": -21.3
+    }
+  },
+  "london_pct65": 12.3,
+  "rest_pct65": 19.9,
+  "forecast": {
+    "Antidepressants": {
+      "backtest_mape_12m": 2.4,
+      "seasonal_naive_mape_12m": 3.7,
+      "next_12m_items_m": 98.8,
+      "last_12m_items_m": 96.4
+    },
+    "Antibacterials": {
+      "backtest_mape_12m": 3.5,
+      "seasonal_naive_mape_12m": 3.3,
+      "next_12m_items_m": 29.6,
+      "last_12m_items_m": 30.2
+    },
+    "Diabetes drugs": {
+      "backtest_mape_12m": 2.4,
+      "seasonal_naive_mape_12m": 7.0,
+      "next_12m_items_m": 79.1,
+      "last_12m_items_m": 74.5
+    },
+    "Lipid-regulating drugs": {
+      "backtest_mape_12m": 2.4,
+      "seasonal_naive_mape_12m": 6.1,
+      "next_12m_items_m": 114.0,
+      "last_12m_items_m": 108.9
+    }
+  }
+}
